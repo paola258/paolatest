@@ -1,0 +1,33 @@
+<html lang = en>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-with, ini">
+        <title> DOCUMENT</title>
+        <link rel="manifiesto" href="./manifiesto.json">
+        <script type ="text/javascript">
+            if("ServiceWorker" in navigator){
+                navigator.serviceWorker.register("sw.js");
+            }
+
+        </script>
+    </head>
+<body>
+    <form>
+        <div>
+            <h1 id="titulo"></h1>
+<label>
+    INGRESA UN NUMERO 
+</label>
+<input type="text" id="id_1">
+        </div>
+        <div>
+            <label>
+                INGRESA UN NUMERO 
+            </label>
+            <input type="text" id="id_2">   
+        </div>
+    </form>
+</body>
+
+</html>
